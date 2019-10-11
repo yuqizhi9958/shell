@@ -161,7 +161,7 @@
 1. `for语句`赋值 =&gt; for 变量名 in 取值内容/取值范围
 
    - 实例：
-    
+   
     ``` bash
     for file in `ls ./`
     ```
@@ -325,7 +325,7 @@ echo $greeting_4 $greeting_5 =&gt; hello, &#39;Mxiobai&#39; ! hello, &quot;${my_
   注释内容...
   注释内容...
   &#39;
-   ```
+  ```
 
   - 方法三：
   
@@ -497,8 +497,9 @@ echo $greeting_4 $greeting_5 =&gt; hello, &#39;Mxiobai&#39; ! hello, &quot;${my_
     ```
 
 - 将结果定向到文件
-  - `echo &quot;Holle World!&quot; &gt; frist.txt` =&gt; 会将`Hello World!`编写在文件`frist.txt`中
-
+  
+- `echo &quot;Holle World!&quot; &gt; frist.txt` =&gt; 会将`Hello World!`编写在文件`frist.txt`中
+  
 - 显示日期
   - ```echo `date` ``` =&gt; 显示当前日期
   - 这个日期无法使用算术运算符进行运算
@@ -557,8 +558,9 @@ echo $greeting_4 $greeting_5 =&gt; hello, &#39;Mxiobai&#39; ! hello, &quot;${my_
 ### Shell test命令
 
 - 作用类似与`[]`，一般放在if语句中使用
-  - `[]`的特殊用法 =&gt; `a=$[2+3] =&gt; echo $a =&gt; 5`
-
+  
+- `[]`的特殊用法 =&gt; `a=$[2+3] =&gt; echo $a =&gt; 5`
+  
 - 可以进行数值、字符和文件三个方面的测试
 - 实例：
 
@@ -935,4 +937,4 @@ done
 
 - 讲了这么多，我们来介绍一下你在命令行输入的那个命令到底都做了些什么
 
-   ![image](/uploads/e56e13de01c63c8b0ad3d44d1a920752/image.png)
+   ![image](image.png)
